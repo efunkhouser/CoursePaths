@@ -3,11 +3,11 @@
 ######Emma Price, Ellie Funkhouser & Becca Getto
 
 ###### Agenda: 
-Outline problem - 1 minute
-Introduce background and context - 1-2 minutes
-Implementation plan - 2-3 minutes
-Our solution - 2-3 minutes
-Questions and feedback - 15 minutes
+1. Outline problem - *1 minute*
+2. Introduce background and context - *1-2 minutes*
+3. Implementation plan - *2-3 minutes*
+4. Our solution - *2-3 minutes*
+5. Questions and feedback - *15 minutes*
 
 ###### Background:
 Currently, it is very challenging to plan what classes you have to take at Olin and at what point in time you should take them so that you can optimize your time and energy. In order to plan when to take course you have to consult your advisor, talk to many upperclassman, and refer to the course listings website which is very challenging to navigate. To improve upon this current system, we are attempting to create an interactive program that allows you to input your interests, intended major, and the classes you have taken and then generates a proposed plan for what future classes you can take and when you should take them.
