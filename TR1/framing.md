@@ -7,6 +7,7 @@ Introduce background and context - 1-2 minutes
 Implementation plan - 2-3 minutes
 Our solution - 2-3 minutes
 Questions and feedback - 15 minutes
+
 Background: Currently, it is very challenging to plan what classes you have to take at Olin and at what point in time you should take them so that you can optimize your time and energy. In order to plan when to take course you have to consult your advisor, talk to many upperclassman, and refer to the course listings website which is very challenging to navigate. To improve upon this current system, we are attempting to create an interactive program that allows you to input your interests, intended major, and the classes you have taken and then generates a proposed plan for what future classes you can take and when you should take them.
 
 Plan of action: We plan to frame our data and manipulate it using the pandas library and we will Tkinter library to formulate our graphical user interface (GUI). For the first implementation, we are looking to create a graphic that displays how much of each credit type (MTH/SCI, ASHE. ENGR) you have completed and then also how many you need to fulfill. After that we would like to have a similar graphic put with the addition of what courses are suggested for fulfilling the open spots. ANd finally our end goal of have suggested classes and when those suggested classes should be completed.
