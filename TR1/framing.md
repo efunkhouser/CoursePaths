@@ -1,30 +1,35 @@
-Course Paths Framing Document
+#### Course Paths Framing Document
 
-Emma Price, Ellie Funkhouser & Becca Getto
+######Emma Price, Ellie Funkhouser & Becca Getto
 
-Agenda: 
+###### Agenda: 
 Outline problem - 1 minute
 Introduce background and context - 1-2 minutes
 Implementation plan - 2-3 minutes
 Our solution - 2-3 minutes
 Questions and feedback - 15 minutes
 
-Background: Currently, it is very challenging to plan what classes you have to take at Olin and at what point in time you should take them so that you can optimize your time and energy. In order to plan when to take course you have to consult your advisor, talk to many upperclassman, and refer to the course listings website which is very challenging to navigate. To improve upon this current system, we are attempting to create an interactive program that allows you to input your interests, intended major, and the classes you have taken and then generates a proposed plan for what future classes you can take and when you should take them.
+###### Background:
+Currently, it is very challenging to plan what classes you have to take at Olin and at what point in time you should take them so that you can optimize your time and energy. In order to plan when to take course you have to consult your advisor, talk to many upperclassman, and refer to the course listings website which is very challenging to navigate. To improve upon this current system, we are attempting to create an interactive program that allows you to input your interests, intended major, and the classes you have taken and then generates a proposed plan for what future classes you can take and when you should take them.
 
-Plan of action: We plan to frame our data and manipulate it using the pandas library and we will Tkinter library to formulate our graphical user interface (GUI). For the first implementation, we are looking to create a graphic that displays how much of each credit type (MTH/SCI, ASHE. ENGR) you have completed and then also how many you need to fulfill. After that we would like to have a similar graphic put with the addition of what courses are suggested for fulfilling the open spots. ANd finally our end goal of have suggested classes and when those suggested classes should be completed.
+###### Plan of action:
+We plan to frame our data and manipulate it using the pandas library and we will Tkinter library to formulate our graphical user interface (GUI). For the first implementation, we are looking to create a graphic that displays how much of each credit type (MTH/SCI, ASHE. ENGR) you have completed and then also how many you need to fulfill. After that we would like to have a similar graphic put with the addition of what courses are suggested for fulfilling the open spots. ANd finally our end goal of have suggested classes and when those suggested classes should be completed.
 
-End goal: At the end of this project we hope to have a program that allows users to input the information described above that generates a graphic of what classes the user should take and when they should take them. We would like this graphic to be best on the prefered semester to take the course and the difficulty level of the course.
+###### End goal:
+At the end of this project we hope to have a program that allows users to input the information described above that generates a graphic of what classes the user should take and when they should take them. We would like this graphic to be best on the prefered semester to take the course and the difficulty level of the course.
 
-Possible challenges:
+###### Possible challenges:
 Structuring irregular course option (i.e. Special Topics in Engineering, or when a course is not offered on a consistent basis)
 Optimizing the data (algorithm/weighting system)
 Intuitive user input system
 Data display for maximum effective communication
 
-Questions:
-Do the general requirements belong in the major class?
-Any suggestions on how to overcome the above challenges?
-Special Topics courses: program tries to leave a space if possible in every semester where you can fill in with what’s most interesting
-Optimizing: not sure. Path algorithm a la AI toolbox? We’re really unfamiliar with algorithms.
-Intuitive user input system: Testing out and pushing on TKinter to see if it makes pretty things; if not, some sort of interface using d3, maybe?? Ideally some input system that leans visual.
-Data display: testing it out with students and making sure it feels clear and usable
+###### Questions:
+- Do the general requirements belong in the major class?
+- Any suggestions on how to overcome the above challenges?
+
+###### Possible actions on challenges:
+- *Special Topics courses:* program tries to leave a space if possible in every semester where you can fill in with what’s most interesting
+- *Optimizing:* not sure. Path algorithm a la AI toolbox? We’re really unfamiliar with algorithms.
+- *Intuitive user input system:* Testing out and pushing on TKinter to see if it makes pretty things; if not, some sort of interface using d3, maybe?? Ideally some input system that leans visual.
+- *Data display:* testing it out with students and making sure it feels clear and usable
