@@ -1,4 +1,5 @@
 Course Paths Framing Document
+
 Emma Price, Ellie Funkhouser & Becca Getto
 
 Agenda: 
