@@ -4,11 +4,11 @@ Emma Price, Ellie Funkhouser & Becca Getto
 Feedback and Decisions:
 
 During this review, we were able to elicit feedback from our peers on a few of the logistical difficulties we have encountered in our project thus far. We first seeked advice on how to deal with courses that are not offered on a regular schedule such as special topics courses and those that are only taught by one particular professor who may be on leave. We received a few possible solutions to this problem from our classmates.
-‘
-Instead of recommending specific courses to take, our program could simply suggest what type of courses to take in a given semester.
-Perhaps it could recommend specific courses for the upcoming semester and general areas for all semesters further out.
-The program could provide multiple options for each course it suggests in case the best case course is not offered.
-The user could have the ability to move around suggested courses to other semesters if they know a course will or will not be offered at a certain time.
+
+- Instead of recommending specific courses to take, our program could simply suggest what type of courses to take in a given semester.
+- Perhaps it could recommend specific courses for the upcoming semester and general areas for all semesters further out.
+- The program could provide multiple options for each course it suggests in case the best case course is not offered.
+- The user could have the ability to move around suggested courses to other semesters if they know a course will or will not be offered at a certain time.
 
 From this feedback we have decided to (at least initially) generalize the program to only recommend specific classes if they are a degree requirement and simply suggest taking a course in a particular area for all elective credits. 
 
