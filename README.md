@@ -31,7 +31,7 @@ Version 3 - Expanded functionality to account for all semesters, not just 2.
 Ellie Funkhouser, Becca Getto & Emma Price
 
 ## FAQs:
--Do I have to select a major?
+- Do I have to select a major?
 Yes, in the current version of the program you must select a major.
 In future versions we may try to expand the functionality so picking a specific major is not necessary.
 
