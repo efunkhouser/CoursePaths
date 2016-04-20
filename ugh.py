@@ -5,14 +5,10 @@ import tkMessageBox
 top = Tk()
 CheckVar1 = []
 CheckVar10 = []
-COURSE_LIST = ['AHSE', 'AHSE', 'AHSE', 'AHSE Foundation', 'Advanced Bio', 'Advanced Math', 'AnalDig', 'Bio:E', 'Chem/MatSci', 'CompArch', 'Computational Robotics', 'DSP', 'DesNat', 'Design Depth', 'Design Elective', 'Discrete', 'Dynamics', 'E! Foundation', 'E:C Elective', 'ECE Elective', 'FOCS', 'Fundamentals of Robotics', 'ISIM', 'Integrated Robotic Systems', 'Intro Microelectronics', 'Lin1', 'Lin2', 'MatSci Elective', 'MatSci Engineering', 'Mech E Math', 'MechDes', 'MechE Elective', 'MechE Math', 'MechSolids', 'ModBio', 'ModSim', 'POE', 'Physics Foundation', 'ProbStat', 'RoboE Elective', 'SCOPE/ADE1', 'SCOPE/ADE2', 'SigSys', 'SoftDes', 'SoftSys', 'Thermo', 'Transport', 'UOCD']
+COURSE_LIST = ['AHSE','AHSE','AHSE','AHSE','AHSE', 'AHSE Foundation', 'Advanced Bio', 'Advanced Math', 'AnalDig', 'Bio:E', 'Chem/MatSci', 'CompArch', 'Computational Robotics', 'DSP', 'DesNat', 'Design Depth','Design Depth','Design Depth','Design Depth', 'Design Elective','Design Elective','Design Elective','Design Elective', 'Discrete', 'Dynamics', 'E! Foundation', 'E:C Elective', 'E:C Elective', 'E:C Elective', 'E:C Elective', 'ECE Elecective', 'ECE Elecective', 'ECE Elecective', 'ECE Elective', 'FOCS', 'Fundamentals of Robotics', 'ISIM', 'Integrated Robotic Systems', 'Intro Microelectronics', 'Lin1', 'Lin2', 'MatSci Elective','MatSci Elective','MatSci Elective', 'MatSci Engineering','MatSci Engineering','MatSci Engineering', 'Mech E Math', 'MechDes', 'MechE Elective','MechE Elective','MechE Elective', 'MechE Math', 'MechSolids', 'ModBio', 'ModSim', 'POE', 'Physics Foundation','Physics Foundation', 'ProbStat', 'RoboE Elective','RoboE Elective','RoboE Elective', 'SCOPE/ADE1', 'SCOPE/ADE2', 'SigSys', 'SoftDes', 'SoftSys', 'Thermo', 'Transport', 'UOCD']
 MAJOR_LIST = ['E:C', 'ECE', 'MechE', 'BioE', 'DesignE', 'MatSciE']
 SEM_LEFT = [1,2,3,4,5,6,7]
 IntVar1 = []
-ELECTIVES = []
-
-variable = StringVar(master)
-variable.set(OPTIONS[0]) # default value
 
 
 for i, course in enumerate(MAJOR_LIST):
@@ -24,16 +20,10 @@ for i, course in enumerate(COURSE_LIST):
 for i, course in enumerate(SEM_LEFT):
 	IntVar1.append(IntVar())
 
-for i, course in enumerate(ELECTIVES):
-	IntVar1.append(IntVar())
-
 courses_taken = []
 # def pack_courses(course):
 # 	print CheckVar[0].get()
 
-
-w = apply(OptionMenu, (master, variable) + tuple(OPTIONS))
-w.pack()
 
 for i, val in enumerate(COURSE_LIST):
 	C = Checkbutton(top, text = val, variable = CheckVar1[i], \
