@@ -5,7 +5,16 @@ The goal of our project is to create a tool for Olin students to help them creat
 
 ## What to Install:
 Numpy
+```python
+sudo apt-get install python-numpy
+```
 Pygal
+```python
+sudo apt-get install python-numpy
+```
+```python
+sudo apt-get install python-numpy
+```
 Copy
 TKinter
 
