@@ -1,7 +1,7 @@
 ---
 title: Main Page
 layout: template
-filename: index.md
+filename: index
 --- 
 
 # Course Paths
