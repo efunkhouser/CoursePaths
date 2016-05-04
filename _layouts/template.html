@@ -11,15 +11,19 @@
   </head>
   <body>
     <section class="page-header">
+      {% for page in site.pages %}
+        <a href={{ page.filename }} class="btn">{{ page.title }}</a>
+      {% endfor %}
       <h1 class="project-name">Coursepaths</h1>
       <h2 class="project-tagline"></h2>
       <a href="https://github.com/efunkhouser/CoursePaths" class="btn">View on GitHub</a>
       <a href="https://github.com/efunkhouser/CoursePaths/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/efunkhouser/CoursePaths/tarball/master" class="btn">Download .tar.gz</a>
+
     </section>
 
     <section class="main-content">
-      <p>CONTENT</p>
+      {{content}}
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/efunkhouser/CoursePaths">Coursepaths</a> is maintained by <a href="https://github.com/efunkhouser">efunkhouser</a>.</span>
