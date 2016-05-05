@@ -1,3 +1,9 @@
+"""
+Last updated: 5/4/16 22:00
+This code file creates a course, major, and semester class. It puts the result of the course and major class into a dictionary of objects.
+@author: Becca Getto, Emma Price
+"""
+
 class Course(object):
     """Creates courses and gives them attributes listed in the init section"""
     def __init__ (self, course_dict, name):
