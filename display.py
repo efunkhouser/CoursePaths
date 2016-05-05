@@ -1,3 +1,12 @@
+"""
+Last updated: 5/4/16 22:00
+This code file creates a new window where the user can input which courses they have taken, what their major is, and how many semesters they have left. It then runs the 
+user's input through the 'make course plan' function and renders a display of it.
+@author: Becca Getto, Emma Price
+"""
+
+
+
 # Make checkbutton
 from Tkinter import *
 import tkMessageBox
