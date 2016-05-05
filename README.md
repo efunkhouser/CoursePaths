@@ -4,19 +4,32 @@
 The goal of our project is to create a tool for Olin students to help them create a course plan for their time at Olin. The program takes into account a variety of factors including: courses already taken, area of academic interest, level of difficulty desired for each semester, and balance of project-based and individual work (this bit isn't implemented yet) desired for each semester. The program uses a reccommendation algorithm that optimizes these chosen factors to suggest specific courses as well as more general course colorings to take in each semester.
 
 ## What to Install:
-Numpy
+####Numpy
 ```python
 sudo apt-get install python-numpy
 ```
-Pygal
+####Pygal
+For pygal, you should install the actual pygal and also the other packages listed in order to actually make the files.
 ```python
-sudo apt-get install python-numpy
+pip install pygal
 ```
 ```python
-sudo apt-get install python-numpy
+pip install lxml
 ```
-Copy
-TKinter
+```python
+pip install cairosvg
+```
+```python
+pip install tinycss
+```
+####Copy
+```python
+sudo apt-get install copy
+```
+####TKinter
+```python
+sudo apt-get install python-tk
+```
 
 ## How to Use:
 First download dictionaries.py, student.py, and display.py. The user only needs to run display.py, but it imports classes and methods from the other two.
