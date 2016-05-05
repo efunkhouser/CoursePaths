@@ -1,3 +1,13 @@
+"""
+
+Last updated: 5/4/16 22:00
+This code file creates a Student class
+@author: Ellie Funkhouser
+
+"""
+
+
+
 import copy
 import numpy
 import numpy.random as nprnd
