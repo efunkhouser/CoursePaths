@@ -1,0 +1,43 @@
+name,eng,ahse,math,sci,suggested_sem,required_sem,prereq,difficulty
+AHSE Foundation,0,4,0,0,0,0,0,2
+ISIM,4,0,0,0,0,0,0,3
+DesNat,4,0,0,0,0,0,0,3
+ModSim,0,0,2,2,0,0,0,3
+E! Foundation,0,4,0,0,1,1,0,2
+Lin1,0,0,4,0,1,1,0,3
+Lin2,0,0,4,0,2,2,0,3
+UOCD,4,0,0,0,3,3,0,4
+MechSolids,4,0,0,0,3,"[3,5]",Mechanics,4
+SigSys,4,0,0,0,3,0,0,3
+MechDes,4,0,0,0,4,0,MechSolids,4
+Discrete,0,0,4,0,5,0,"[Lin1, Lin2]",4
+Intro Microelectronics,4,0,0,0,5,0,Lin1,3
+ModBio,0,0,0,4,"1,2,3",0,0,3
+Mechanics Foundation,0,0,0,4,"1,2,3",0,0,3
+E&M foundation,0,0,0,4,"1,2,3",0,0,4
+Chem/MatSci,0,0,0,4,"1,2,3",0,0,3
+AHSE Class,0,4,0,0,"1,2,3,4,5,6,7",0,0,2
+POE,4,0,0,0,"2,4",0,0,4
+Dynamics,4,0,0,0,"2,4",0,"[Discrete, Mechanics]",5
+ProbStat,0,0,2,0,"3,4",0,0,2
+SoftDes,4,0,0,0,"3,4,5,6",0,0,3
+FOCS,4,0,0,0,"3,4,5,6",0,"[Discrete, SoftDes]",4
+SoftSys,4,0,0,0,"3,4,5,6",0,SoftDes,2
+Advanced Math,0,0,4,0,"3,4,5,6,7",0,"[Lin1, Lin2]",3
+Thermo,4,0,0,0,"3,5",0,Mechanics,2
+Mech E Math,0,0,4,0,"4,5,6,7",0,"[Lin1, Lin2]",3
+MatSci Elective,0,0,0,4,"4,5,6,7",0,Chem/MatSci,3
+MatSci Engineering,0,0,0,4,"4,5,6,7",0,0,4
+ECE Elective,4,0,0,0,"4,5,6,7",0,Check,4
+Mech E Elective,4,0,0,0,"4,5,6,7",0,Check,4
+E:C Elective,4,0,0,0,"4,5,6,7",0,SoftDes,4
+RoboE Elective,4,0,0,0,"4,5,6,7",0,0,4
+Design Depth,4,0,0,0,"4,5,6,7",0,UOCD,3
+Transport,4,0,0,0,"4,6",0,"[Lin1, Lin2, Termo]",3
+CompArch,4,0,0,0,"4,6",0,0,4
+DSP,4,0,0,0,"4,6",0,SigSys,2
+AnalDIg,4,0,0,0,"4,6",0,SigSys,3
+Bio:E ,4,0,0,0,0,0,ModBio,4
+Advanced Bio,0,0,0,4,0,0,ModBio,3
+Design Elective,4,0,0,0,0,0,0,2
+SCOPE/ADE,4,0,0,0,0,"[6,7]",0,5

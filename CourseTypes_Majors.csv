@@ -1,0 +1,9 @@
+Major,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course,Course
+General Requirements,ModSim,ModBio,Lin1,Lin2,iSIM,POE,Products and Markets,Deisgn Nature,UOCD,AHSE 1,AHSE 2,AHSE 3,AHSE 4,Chem/MatSci,ProbStat,"[E&M, Mechanics]",Design Depth,SCOPE/ADE,SCOPE/ADE
+ECE,Discrete,SigSys,Intro Microelectronics,SofDes,CompArch,"DSP, AnalDig",ECE Elective,0,0,0,0,0,0,0,0,0,0,0,0
+MechE,MechSolids,Dynamics,Thermo,Transport,MechDes,MechE Math,MechE Elective,0,0,0,0,0,0,0,0,0,0,0,0
+BioE,Advanced Math,Advanced Bio,Chem/MatSci,BioE Elective,BioE Elective,BioE Elective,0,0,0,0,0,0,0,0,0,0,0,0,0
+EwithC,Discrete,SofDes,FOCS,SoftSys,E:C Elective,E:C Elective,0,0,0,0,0,0,0,0,0,0,0,0,0
+DesignE,Advanced Design,Advanced Design,Design Elective,Design Elective,Design Elective,Design Elective,Portfolio,0,0,0,0,0,0,0,0,0,0,0,0
+MatSciE,MatSci Elective,MatSci Elective,MatSci Elective,MatSci Engineering,MatSci Engineering,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RoboE,Advanced Math,E:C Elective,MechE Elective,Integrated Robotic Systems,Fundamentals of Robotics,Computational Robotics,RoboE Elective,0,0,0,0,0,0,0,0,0,0,0,0
